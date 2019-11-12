@@ -1,0 +1,19 @@
+package PakIlham;
+
+public class UjiBus2 {
+    public static void main(String[] ily) {
+        Bus2 Bus = new Bus2(5);
+            Bus.getpenumpang(17);
+            Bus.getpenumpang(24);
+            Bus.cetakpenumpang();
+            //tambah penumpang
+            Bus.addpenumpang (2);//tambah 2 penumpang
+            Bus.cetakpenumpang();
+            //tambah penumpang lagi
+            Bus.addpenumpang(1);//tambah 1 penumpang
+            Bus.cetakpenumpang();
+            //tambah penumpang lagi
+            Bus.addpenumpang(3);//tambah 3 penumpang
+            Bus.cetakpenumpang();
+    }
+}
