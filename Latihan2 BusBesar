@@ -1,0 +1,27 @@
+package PakIlham;
+
+public class BusBesar {
+private int penumpang;
+private int maxpenumpang;
+
+//konstruktor
+public BusBesar(int maxpenumpang){
+    this.maxpenumpang = maxpenumpang;
+    penumpang = 0;
+}
+//method mutator untuk menambahkan penumpang
+public void addPenumpang(int penumpang){
+    int temp;
+    temp = this.penumpang+penumpang;
+    if(temp >= maxpenumpang){
+        System.out.println("Penumpang bus saat ini melebihi kuota!");
+    
+    }else{
+        this.penumpang = temp;
+    }
+}
+public void cetak(){
+    System.out.println("Penumpang bus sekarang : "+ penumpang);
+    System.out.println("Penumpang bus maksimum adalah : "+ maxpenumpang);
+}
+}
