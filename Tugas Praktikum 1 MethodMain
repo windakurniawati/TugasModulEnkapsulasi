@@ -1,0 +1,15 @@
+package PakIlham;
+
+public class UjiRatarataPenumpang {
+    public static void main(String[] hallo) {
+        RatarataPenumpang berat = new RatarataPenumpang(10);
+     berat.addPenumpang(5);
+     berat.addberat(85);
+     berat.addAverage();
+     berat.cetak();
+      
+      
+        
+    }
+    
+}
