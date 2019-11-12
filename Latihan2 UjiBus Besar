@@ -1,0 +1,20 @@
+package PakIlham;
+
+public class UjicobaBusBesar {
+    public static void main(String[] args) {
+     //objek bus besar dari class BusBesar
+        BusBesar BusBesar = new BusBesar(50);
+        BusBesar.cetak();
+        
+     //penambahan penumpang
+     BusBesar.addPenumpang(15);
+     BusBesar.cetak();
+     
+     BusBesar.addPenumpang(20);
+     BusBesar.cetak();
+     
+     BusBesar.addPenumpang(25);
+     BusBesar.cetak();
+    }
+ 
+}
