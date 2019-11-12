@@ -1,0 +1,58 @@
+package PakIlham;
+
+public class RatarataPenumpang {
+
+    public double penumpang;
+    public double maxpenumpang;
+    public double berat;
+    public double ratarata;
+
+    public RatarataPenumpang(double maxpenumpang) {
+        this.maxpenumpang = maxpenumpang;
+        penumpang = 0;
+        berat = 0.0;
+    }
+
+    public void addPenumpang(double penumpang) {
+        double temp;
+        temp = this.penumpang + penumpang;
+        if (temp > maxpenumpang) {
+            System.out.println("kuota penumpang terpenuhi!");
+
+        } else {
+            this.penumpang = temp;
+        }
+    }
+
+    public void addberat(double berat) {
+        double total, rata;
+        total = this.berat + berat;
+        this.berat = total;
+        //double addAverage = this.berat / this.penumpang;
+
+        //  this.ratarata = addAverage;
+    }
+
+    public void addAverage() {
+        double addAverage = this.berat / this.penumpang;
+
+        this.ratarata = addAverage;
+        System.out.println("rata rata berat badan penumpang bus : ");
+
+    }
+
+    public void getpenumpang(int pass) {
+        if (pass == 5) {
+            System.out.println("Password benar");
+        } else {
+            System.out.println("Password salah");
+        }
+    }
+
+    public void cetak() {
+        System.out.println("penumpang yang masuk : " + penumpang);
+        System.out.println("maksimal penumpang : " + maxpenumpang);
+        System.out.println("berat penumpang di bus : " + berat);
+        System.out.println("rata rata berat seluruh penumpang adalah : " + ratarata);
+    }
+}
