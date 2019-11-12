@@ -1,0 +1,24 @@
+package PakIlham;
+
+public class Bola {
+   public double jarijari; 
+   public int luasPermukaan;
+   public int volume;
+   public int diameter;
+
+public void setJarijari(double jarijari){
+    this.jarijari = jarijari;
+} 
+
+public void setLuasPermukaan(int luasPermukaan){
+    this.luasPermukaan= luasPermukaan;
+}
+
+public void setDiameter(int diameter){
+    this.diameter = diameter;
+}
+
+public void setVolume(int volume){
+    this.volume = volume;
+}
+}
