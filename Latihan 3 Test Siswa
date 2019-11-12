@@ -1,0 +1,14 @@
+package PakIlham;
+
+public class TestSiswa {
+    public static void main(String[] args) {
+        EncapSiswa siswa = new EncapSiswa();
+        siswa.setName("winda");
+        siswa.setAge(40);
+        siswa.getAddress("Tulungagung");
+        
+        System.out.println("Nama : "+ siswa.getName());
+        System.out.println("Absen : "+ siswa.getAbsen());
+        System.out.println("Alamat : "+ siswa.getAddress());
+    }
+}
