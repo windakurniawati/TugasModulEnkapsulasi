@@ -1,0 +1,40 @@
+package PakIlham;
+
+
+public class Bus2 {
+    public int penumpang;
+    public int maxpenumpang;
+    
+    public Bus2 (int maxpenumpang){
+        this.maxpenumpang = maxpenumpang;
+        penumpang = 0;
+    }
+    public void addpenumpang(int penumpang){
+        int temp;
+        temp = this.penumpang+penumpang;
+        if(temp>maxpenumpang){
+            System.out.println("kuota penumpang terpenuhi!");
+            
+        }
+        else{
+            this.penumpang = temp;
+        }
+    }
+        public void getpenumpang(int pass)
+        {
+            if(pass == 5)
+            {
+                System.out.println("Password benar");
+            }
+            else
+            {
+                System.out.println("Password salah");
+            }
+        }
+        public void cetakpenumpang()
+        {
+            System.out.println("penumpang bus sekarang: "+ penumpang);
+            System.out.println("Maksimum penumpang bus yang seharusnya adalah : "+ maxpenumpang);
+        }
+}
+
