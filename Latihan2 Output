@@ -1,0 +1,11 @@
+run:
+Penumpang bus sekarang : 0
+Penumpang bus maksimum adalah : 50
+Penumpang bus sekarang : 15
+Penumpang bus maksimum adalah : 50
+Penumpang bus sekarang : 35
+Penumpang bus maksimum adalah : 50
+Penumpang bus saat ini melebihi kuota!
+Penumpang bus sekarang : 35
+Penumpang bus maksimum adalah : 50
+BUILD SUCCESSFUL (total time: 0 seconds)
