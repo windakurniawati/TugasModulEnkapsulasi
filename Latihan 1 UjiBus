@@ -1,0 +1,27 @@
+package PakIlham;
+
+
+public class Ujibus {
+    public static void main(String[] args) {
+        
+        Bus busMini = new Bus();
+        
+        busMini.penumpang = 10;
+        busMini.maxpenumpang = 20;
+        
+        busMini.cetak();
+
+        busMini.penumpang =busMini.penumpang + 5;
+        
+        busMini.cetak();
+        
+        busMini.penumpang = busMini.penumpang - 2;
+        busMini.cetak();
+
+        busMini.penumpang = busMini.penumpang | 5;
+        busMini.cetak();
+                
+    }
+    
+    
+}
